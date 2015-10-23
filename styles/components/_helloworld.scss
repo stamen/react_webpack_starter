@@ -1,0 +1,30 @@
+.helloworld {
+    position: fixed;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    border: 0;
+    background:transparent url('~/assets/helloworld.gif') 50% 50% no-repeat;
+    background-size: cover;
+
+  h1 {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    font-size: 10vw;
+    font-weight: 800;
+    color: pink;
+    margin: 0;
+    line-height: 1;
+  }
+}
+
+.blinkr {
+  animation: blinker 0.2s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.0; }
+}
