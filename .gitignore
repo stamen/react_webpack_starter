@@ -1,7 +1,0 @@
-node_modules
-.DS_Store
-*.env
-.sass-cache
-npm-debug.log
-public/*.js
-public/*.css
