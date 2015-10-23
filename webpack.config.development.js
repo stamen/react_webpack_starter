@@ -22,7 +22,7 @@ config.module.loaders = [
   },
   {
     test: /\.scss$/,
-    loaders: ['style', 'css', 'sass'],
+    loaders: ['style', 'css', 'resolve-url', 'sass'],
     exclude: /node_modules/
   }
 ].concat(config.module.loaders);

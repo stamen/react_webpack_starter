@@ -21,7 +21,7 @@ config.module.loaders = [
   {
     test: /\.scss$/,
     exclude: /node_modules/,
-    loader: ExtractTextPlugin.extract('style', 'css!sass')
+    loader: ExtractTextPlugin.extract('style', 'css!resolve-url!sass')
   },
   {
     test: /\.css$/,
